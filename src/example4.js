@@ -2,7 +2,7 @@
 // 複雑な型指定
 
 // 型定義ができる。文字列の直和型はjavascriptでたまに使うので嬉しい
-type T = 'good' | 'bad';
+type T = 'apple' | 'orange';
 
 // 定義されたtypeをメンバーとして持つtypeを作れる
 type P = {
@@ -20,5 +20,5 @@ function f1({field1, field2}: P) {
 // }
 
 f1({
-  field1: 'good',
+  field1: 'apple',
 });
