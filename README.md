@@ -9,6 +9,6 @@ $ npm install
 ## Run flow checker
 
 ```bash
-$ flow check-contents < src/example1.js
+$ ./node_modules/flow-bin/vendor/flow check-contents < src/example1.js
 ```
 
